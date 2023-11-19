@@ -1,13 +1,37 @@
 :root {
-    --color_text: #2B7FFF;
+    --color-logo-heading: #011C44;
+    --color-heading: #2B7FFF;
 }
 
 ul {
     list-style-type: none;
 }
 
+body {
+    color: var(--color-logo-heading);
+    font-family: Roboto;
+font-size: 22px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+h2 {
+    color: var(--color-logo-heading);
+    font-family: Play;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+span {
+    color: var(--color-heading);
+}
+
 .main_title {
-    color: var(--color_text);
+    color: var(--color-heading);
     font-family: Play;
     font-size: 140px;
     font-weight: 700;
@@ -17,7 +41,7 @@ ul {
 }
 
 .button {
-    background: var(--color_text);
+    background: var(--color-heading);
     width: Hug (219px);
     height:  Hug (53px);
     padding: 16px, 32px, 16px, 32px;
@@ -27,7 +51,7 @@ ul {
 }
 
 .link {
-    color: #011C44;
+    color: var(--color-logo-heading);
     ;
     font-family: Roboto;
     font-size: 18px;
@@ -49,7 +73,7 @@ ul {
 
 .link:hover {
     font-family: Roboto;
-    color: var(--color_text);
+    color: var(--color-heading);
     ;
     font-size: 18px;
     font-weight: 700;
@@ -59,18 +83,18 @@ ul {
 }
 
 .main_title {
-    color: var(--color_text);
+    color: var(--color-heading);
     ;
 }
 
 .logo {
-    color: var(--color_text );
+    color: var(--color-heading );
     font-family: Roboto;
 }
 
 
 
 footer {
-    background-color: #011C44;
+    background-color: var(--color-logo-heading);
     ;
 }
